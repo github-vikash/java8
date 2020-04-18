@@ -36,7 +36,7 @@ public class ConsumerDemo {
 		Predicate<Student> p = e->e.marks>=60;
 		
 		Consumer<Student> c = ss->{
-			System.out.println("Student Name:"+ss.name);
+			System.out.println("Student Name :"+ss.name);
 			System.out.println("Student Marks:"+ss.marks);
 
 			System.out.println("Student Grades:"+f.apply(ss));
